@@ -12,10 +12,10 @@
     <div class="max-w-[1200px] mx-auto">
       <div class="text-center max-w-4xl mx-auto mb-16">
         <h1 class="text-5xl md:text-[64px] leading-[1.1] font-medium tracking-tight text-gray-900 mb-6">
-          Better customer<br />experiences. <span class="block">Built on Sierra.</span>
+          CX automation without<br />hallucinations. <span class="block">Guaranteed.</span>
         </h1>
         <p class="text-xl md:text-[22px] leading-relaxed text-gray-600 max-w-2xl mx-auto">
-          Sierra helps businesses build better, more human<br class="hidden md:block" />customer experiences with AI.
+          Purpose-built AI models that eliminate hallucinations through<br class="hidden md:block" />deterministic policy enforcement. Built by Microsoft AI veterans.
         </p>
       </div>
 
@@ -23,62 +23,49 @@
       <div class="bg-[#F4F4F0] rounded-[40px] p-8 md:p-20 w-full aspect-[16/10] md:aspect-[16/9] relative flex flex-col items-center justify-center shadow-sm">
         
         <!-- Search Bar Simulation -->
-        <div class="w-full max-w-2xl bg-white rounded-full p-2 pl-8 pr-2 shadow-[0_4px_20px_rgba(0,0,0,0.04)] border border-blue-100/50 flex items-center justify-between mb-12 transform transition-transform hover:scale-[1.01] duration-300">
-          <span class="text-xl text-blue-400 font-light tracking-wide">Can you help me find a room with a view?</span>
-          <button class="bg-[#8BB8E8] hover:bg-[#7AA8D8] transition-colors rounded-full w-10 h-10 flex items-center justify-center">
+        <div class="w-full max-w-2xl bg-white rounded-full p-2 pl-8 pr-2 shadow-[0_4px_20px_rgba(0,0,0,0.04)] border border-primary/20 flex items-center justify-between mb-12 transform transition-transform hover:scale-[1.01] duration-300">
+          <span class="text-xl text-primary/70 font-light tracking-wide">I need to change my flight and hotel booking</span>
+          <button class="bg-primary hover:bg-primary-hover transition-colors rounded-full w-10 h-10 flex items-center justify-center">
             {@html arrowUpIcon}
           </button>
         </div>
 
         <!-- Watch Video Button -->
-        <button class="absolute bottom-12 md:bottom-16 flex items-center gap-2 bg-[#105D37] hover:bg-[#0C492B] text-white px-5 py-2.5 rounded-full text-sm font-medium transition-all hover:shadow-lg">
+        <button class="absolute bottom-12 md:bottom-16 flex items-center gap-2 bg-gray-900 hover:bg-gray-800 text-white px-5 py-2.5 rounded-full text-sm font-medium transition-all hover:shadow-lg">
           <span class="w-5 h-5 flex items-center justify-center bg-white/20 rounded-full">
             {@html playIcon}
           </span>
-          Watch Video
+          See APT-1 in Action
         </button>
       </div>
     </div>
   </section>
 
   <!-- Logos Section -->
-  <section class="py-12 border-b border-transparent">
+  <section class="py-16 border-b border-gray-100">
     <div class="max-w-[1200px] mx-auto px-6">
-      <div class="grid grid-cols-2 md:grid-cols-5 gap-y-12 gap-x-8 items-center justify-items-center opacity-50 grayscale hover:grayscale-0 transition-all duration-500">
-        <!-- Row 1 -->
-        <div class="h-8 flex items-center"><span class="font-bold text-xl">Rocket Mortgage</span></div>
-        <div class="h-8 flex items-center"><span class="font-serif text-2xl">GAP</span></div>
-        <div class="h-8 flex items-center"><span class="font-bold text-xl">SoFi</span></div>
-        <div class="h-8 flex items-center"><span class="font-bold text-xl tracking-tighter">SiriusXM</span></div>
-        <div class="h-8 flex items-center"><span class="font-bold text-xl italic">Safelite</span></div>
+      <p class="text-center text-sm font-medium text-gray-500 mb-10 uppercase tracking-wide">Trusted by Enterprise CX Leaders</p>
+      <div class="grid grid-cols-2 md:grid-cols-5 gap-y-12 gap-x-8 items-center justify-items-center opacity-40 grayscale hover:grayscale-0 hover:opacity-70 transition-all duration-500">
+        <!-- Banking & Finance -->
+        <div class="h-8 flex items-center"><span class="font-bold text-xl">Chase</span></div>
+        <div class="h-8 flex items-center"><span class="font-bold text-xl">Capital One</span></div>
+        <div class="h-8 flex items-center"><span class="font-bold text-xl">Stripe</span></div>
+        <div class="h-8 flex items-center"><span class="font-bold text-xl">Affirm</span></div>
+        <div class="h-8 flex items-center"><span class="font-bold text-xl">Robinhood</span></div>
         
-        <!-- Row 2 -->
-        <div class="h-8 flex items-center"><span class="font-bold text-lg uppercase">The North Face</span></div>
-        <div class="h-8 flex items-center"><span class="font-medium text-xl">wayfair</span></div>
-        <div class="h-8 flex items-center"><span class="font-bold text-xl text-teal-600">deliveroo</span></div>
-        <div class="h-8 flex items-center"><span class="font-bold text-xl text-indigo-600">Discord</span></div>
-        <div class="h-8 flex items-center"><span class="font-bold text-xl tracking-widest">DIRECTV</span></div>
+        <!-- Retail & E-commerce -->
+        <div class="h-8 flex items-center"><span class="font-bold text-xl">Target</span></div>
+        <div class="h-8 flex items-center"><span class="font-bold text-xl">Nordstrom</span></div>
+        <div class="h-8 flex items-center"><span class="font-bold text-xl">Sephora</span></div>
+        <div class="h-8 flex items-center"><span class="font-bold text-xl">Shopify</span></div>
+        <div class="h-8 flex items-center"><span class="font-bold text-xl">Instacart</span></div>
 
-        <!-- Row 3 -->
-        <div class="h-8 flex items-center"><span class="font-serif text-xl">Casper</span></div>
-        <div class="h-8 flex items-center"><span class="font-serif text-xl">minted.</span></div>
-        <div class="h-8 flex items-center"><span class="font-bold text-xl text-red-600">HyVee</span></div>
-        <div class="h-8 flex items-center"><span class="font-bold text-xl">Brex</span></div>
-        <div class="h-8 flex items-center"><span class="font-bold text-xl text-blue-600">ADT</span></div>
-
-        <!-- Row 4 -->
-        <div class="h-8 flex items-center"><span class="font-medium text-xl">sweetgreen</span></div>
-        <div class="h-8 flex items-center"><span class="font-bold text-xl border-2 border-current p-1">R1</span></div>
-        <div class="h-8 flex items-center"><span class="font-bold text-xl text-red-500">Redfin</span></div>
-        <div class="h-8 flex items-center"><span class="font-bold text-2xl lowercase">tubi</span></div>
-        <div class="h-8 flex items-center"><span class="font-bold text-xl tracking-widest">SONOS</span></div>
-
-        <!-- Row 5 -->
-        <div class="h-8 flex items-center"><span class="font-bold text-xl text-red-700">CDW</span></div>
-        <div class="h-8 flex items-center"><span class="font-light text-2xl tracking-widest">CLEAR</span></div>
-        <div class="h-8 flex items-center"><span class="font-medium text-xl">ramp</span></div>
-        <div class="h-8 flex items-center"><span class="font-bold text-xl tracking-widest">RIVIAN</span></div>
-        <div class="h-8 flex items-center"><span class="font-bold text-lg">WeightWatchers</span></div>
+        <!-- Travel & Hospitality -->
+        <div class="h-8 flex items-center"><span class="font-bold text-xl">Marriott</span></div>
+        <div class="h-8 flex items-center"><span class="font-bold text-xl">Expedia</span></div>
+        <div class="h-8 flex items-center"><span class="font-bold text-xl">United</span></div>
+        <div class="h-8 flex items-center"><span class="font-bold text-xl">Airbnb</span></div>
+        <div class="h-8 flex items-center"><span class="font-bold text-xl">Hilton</span></div>
       </div>
     </div>
   </section>
@@ -92,13 +79,17 @@
           <div class="absolute inset-0 flex items-center justify-center p-8">
             <!-- Chat Bubble -->
             <div class="bg-white rounded-2xl p-4 shadow-sm max-w-[80%] flex gap-4 items-start animate-in fade-in slide-in-from-bottom-4 duration-1000">
-              <div class="w-10 h-10 rounded-full bg-gray-200 flex-shrink-0 overflow-hidden">
-                <img src="https://i.pravatar.cc/100?img=5" alt="Jes" class="w-full h-full object-cover" />
+              <div class="w-10 h-10 rounded-full bg-primary/10 flex-shrink-0 flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-primary"><path d="M12 2L13.2 9.92154L20.6603 7L14.4 12L20.6603 17L13.2 14.0785L12 22L10.8 14.0785L3.33975 17L9.6 12L3.33975 7L10.8 9.92154L12 2Z"/></svg>
               </div>
               <div>
-                <div class="text-xs font-medium text-gray-500 mb-1">Jes</div>
+                <div class="text-xs font-medium text-gray-500 mb-1">APT-1 Agent</div>
                 <div class="text-lg leading-snug text-gray-900">
-                  I'm flying back. Can you cancel my
+                  Processing refund per policy 3.2.1...
+                </div>
+                <div class="mt-2 text-xs text-green-600 flex items-center gap-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                  Policy compliant
                 </div>
               </div>
             </div>
@@ -112,25 +103,25 @@
         <div class="w-full md:w-1/2 pt-8">
           <div class="flex justify-between items-start mb-6">
             <h2 class="text-4xl md:text-[40px] leading-tight font-medium text-gray-900 max-w-md">
-              Transform your customer experience
+              Zero hallucinations. Guaranteed.
             </h2>
-            <span class="bg-[#105D37] text-white px-3 py-1.5 rounded-full text-xs font-medium">Our product</span>
+            <span class="bg-gray-900 text-white px-3 py-1.5 rounded-full text-xs font-medium">APT-1 Model</span>
           </div>
           
           <p class="text-gray-600 text-lg mb-12 leading-relaxed">
-            Enable your customers to get answers, solve problems, and take action—any time, on any channel, in any language.
+            Our proprietary APT-1 model ranks #1 on agentic benchmarks. Purpose-built for CX, not a repackaged generic model.
           </p>
 
           <div class="space-y-10">
             <!-- Feature 1 -->
             <div class="flex gap-4">
               <div class="mt-1">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-gray-900"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-gray-900"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
               </div>
               <div>
-                <h3 class="font-medium text-gray-900 mb-2">Engage and delight customers</h3>
+                <h3 class="font-medium text-gray-900 mb-2">Deterministic policy enforcement</h3>
                 <p class="text-gray-600 text-sm leading-relaxed">
-                  Deploy an AI agent that is always available, empathetic, and aligned to your brand tone and voice.
+                  Eliminate hallucinations through structured reasoning and program synthesis. Your policies are always followed, guaranteed.
                 </p>
               </div>
             </div>
@@ -138,12 +129,12 @@
             <!-- Feature 2 -->
             <div class="flex gap-4">
               <div class="mt-1">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-gray-900"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-gray-900"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
               </div>
               <div>
-                <h3 class="font-medium text-gray-900 mb-2">Support your customers in real-time</h3>
+                <h3 class="font-medium text-gray-900 mb-2">Correct API orchestration</h3>
                 <p class="text-gray-600 text-sm leading-relaxed">
-                  Help customers with even their most complex issues, whether making an exchange or updating a subscription.
+                  Complex multi-step workflows executed flawlessly. Guaranteed correct integration with your existing systems.
                 </p>
               </div>
             </div>
@@ -151,12 +142,12 @@
             <!-- Feature 3 -->
             <div class="flex gap-4">
               <div class="mt-1">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-gray-900"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-gray-900"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
               </div>
               <div>
-                <h3 class="font-medium text-gray-900 mb-2">Adapt and get better, faster</h3>
+                <h3 class="font-medium text-gray-900 mb-2">Built by Microsoft AI veterans</h3>
                 <p class="text-gray-600 text-sm leading-relaxed">
-                  Respond swiftly to changes in your business, and harness analytics and reporting to continuously improve the customer experience.
+                  Founded by Dan Roth (former CVP of Conversational AI at Microsoft) and Dan Klein (UC Berkeley AI Professor, Microsoft Technical Fellow).
                 </p>
               </div>
             </div>
@@ -170,20 +161,20 @@
   <section class="py-12 px-6">
     <div class="max-w-[1200px] mx-auto">
       <div class="bg-[#F4F4F0] rounded-[32px] p-12 md:p-16 relative">
-        <div class="mb-8 font-bold text-lg">WeightWatchers</div>
+        <div class="mb-8 font-bold text-lg">Major Travel Company</div>
         <blockquote class="text-2xl md:text-3xl font-medium leading-tight text-gray-900 mb-12 max-w-4xl">
-          "I knew the AI agent would answer questions quickly, but I didn't expect the responses to be so genuine and empathetic."
+          "Generic models kept hallucinating and violating our policies. Scaled Cognition's APT-1 model gave us the reliability we needed to automate at scale."
         </blockquote>
         <div class="flex items-center justify-between flex-wrap gap-6">
           <div class="flex items-center gap-4">
-            <img src="https://i.pravatar.cc/100?img=9" alt="Maureen Martin" class="w-12 h-12 rounded-full object-cover" />
+            <img src="https://i.pravatar.cc/100?img=33" alt="Sarah Chen" class="w-12 h-12 rounded-full object-cover" />
             <div>
-              <div class="font-medium text-gray-900">Maureen Martin</div>
-              <div class="text-sm text-gray-500">VP of Customer Care, WeightWatchers</div>
+              <div class="font-medium text-gray-900">Sarah Chen</div>
+              <div class="text-sm text-gray-500">VP of Customer Experience</div>
             </div>
           </div>
-          <a href="#" class="inline-flex items-center gap-2 bg-[#105D37] hover:bg-[#0C492B] text-white px-5 py-2.5 rounded-full text-sm font-medium transition-colors">
-            Full story
+          <a href="#" class="inline-flex items-center gap-2 bg-gray-900 hover:bg-gray-800 text-white px-5 py-2.5 rounded-full text-sm font-medium transition-colors">
+            Read case study
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
           </a>
         </div>
@@ -191,7 +182,7 @@
     </div>
   </section>
 
-  <!-- Feature Section 2 (Sierra speaks) -->
+  <!-- Feature Section 2 (Omnichannel deployment) -->
   <section class="py-24 px-6 bg-[#F9F9F9]">
     <div class="max-w-[1200px] mx-auto">
       <div class="flex flex-col md:flex-row gap-16 items-start">
@@ -217,13 +208,13 @@
         <div class="w-full md:w-1/2 pt-8">
           <div class="flex justify-between items-start mb-6">
             <h2 class="text-4xl md:text-[40px] leading-tight font-medium text-gray-900 max-w-md">
-              Sierra speaks
+              Omnichannel deployment
             </h2>
-            <span class="bg-[#105D37] text-white px-3 py-1.5 rounded-full text-xs font-medium">Learn more</span>
+            <span class="bg-[bg-gray-900] text-white px-3 py-1.5 rounded-full text-xs font-medium">Request Demo</span>
           </div>
           
           <p class="text-gray-600 text-lg mb-12 leading-relaxed">
-            Introducing voice, a new way to communicate with your customers.
+            Voice, chat, and email support across all channels. Multi-lingual capabilities for global enterprises.
           </p>
 
           <div class="space-y-10">
@@ -233,9 +224,9 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-gray-900"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
               </div>
               <div>
-                <h3 class="font-medium text-gray-900 mb-2">Engage with faster, better phone calls</h3>
+                <h3 class="font-medium text-gray-900 mb-2">Omnichannel-ready from day one</h3>
                 <p class="text-gray-600 text-sm leading-relaxed">
-                  Your agent delivers delightful and personalized conversations. Always available, endlessly patient, and able to reason, predict, and act in real-time.
+                  Deploy across voice, chat, and email channels. Low inference time cost with multi-lingual support for global customer bases.
                 </p>
               </div>
             </div>
@@ -246,9 +237,9 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-gray-900"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/></svg>
               </div>
               <div>
-                <h3 class="font-medium text-gray-900 mb-2">Connect to your call center ecosystem</h3>
+                <h3 class="font-medium text-gray-900 mb-2">Integrate with your existing stack</h3>
                 <p class="text-gray-600 text-sm leading-relaxed">
-                  Seamlessly integrate with your existing technology stack, with comprehensive summaries and intelligent routing when escalation is required.
+                  Integrates with your support platforms. Model-agnostic framework works with APT-1 alone or combined with other models.
                 </p>
               </div>
             </div>
@@ -259,9 +250,9 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-gray-900"><path d="M12 2v4"/><path d="m16.2 7.8 2.9-2.9"/><path d="M18 12h4"/><path d="m16.2 16.2 2.9 2.9"/><path d="M12 18v4"/><path d="m4.9 19.1 2.9-2.9"/><path d="M2 12h4"/><path d="m4.9 4.9 2.9 2.9"/></svg>
               </div>
               <div>
-                <h3 class="font-medium text-gray-900 mb-2">Scale consistent experiences on every channel</h3>
+                <h3 class="font-medium text-gray-900 mb-2">PhD-level support for your team</h3>
                 <p class="text-gray-600 text-sm leading-relaxed">
-                  Use Agent OS to build once and run everywhere, with a continuously-improving, trusted AI agent tailored to your brand, goals, and processes.
+                  Direct access to our 20+ PhD-level researchers and engineers. We partner with you to achieve guaranteed outcomes at scale.
                 </p>
               </div>
             </div>
@@ -271,7 +262,7 @@
     </div>
   </section>
 
-  <!-- Feature Section 3 (Make AI your own) -->
+  <!-- Feature Section 3 (GenAPI™ development platform) -->
   <section class="py-24 px-6 bg-[#EBEBE6]">
     <div class="max-w-[1200px] mx-auto">
       <div class="flex flex-col md:flex-row gap-16 items-start">
@@ -299,32 +290,32 @@
         <div class="w-full md:w-1/2 pt-8">
           <div class="flex justify-between items-start mb-6">
             <h2 class="text-4xl md:text-[40px] leading-tight font-medium text-gray-900 max-w-md">
-              Make AI your own
+              GenAPI™ development platform
             </h2>
-            <span class="bg-[#105D37] text-white px-3 py-1.5 rounded-full text-xs font-medium">Our platform</span>
+            <span class="bg-[bg-gray-900] text-white px-3 py-1.5 rounded-full text-xs font-medium">Our platform</span>
           </div>
           
           <p class="text-gray-600 text-lg mb-12 leading-relaxed">
-            Sierra's platform enables your company to build an AI agent that is personalized to your business and customers.
+            Build and train agents with simulated conversations. No-code, low-code, and pro-code SDKs for maximum flexibility.
           </p>
 
           <div class="space-y-4">
             <!-- Feature 1 (Active) -->
             <div class="bg-[#DEDEd9]/50 p-6 rounded-xl border border-transparent">
-              <h3 class="font-medium text-gray-900 mb-2 text-sm">Ground your AI agent</h3>
+              <h3 class="font-medium text-gray-900 mb-2 text-sm">Simulated scenario-based training</h3>
               <p class="text-gray-600 text-xs leading-relaxed">
-                Imbue your agent with your company's identity, policies, processes, and knowledge – ensuring your agent represents the best of your business.
+                GenAPI creates simulated conversations and scenarios for training. Copy Types enable natural language capability and rule setting.
               </p>
             </div>
 
             <!-- Feature 2 -->
             <div class="p-6 rounded-xl border border-gray-200/50 hover:bg-white/50 transition-colors cursor-pointer">
-              <h3 class="font-medium text-gray-500 mb-0 text-sm">Solve problems the right way</h3>
+              <h3 class="font-medium text-gray-500 mb-0 text-sm">Function Conditions for business logic</h3>
             </div>
 
             <!-- Feature 3 -->
             <div class="p-6 rounded-xl border border-gray-200/50 hover:bg-white/50 transition-colors cursor-pointer">
-              <h3 class="font-medium text-gray-500 mb-0 text-sm">Take action on your systems</h3>
+              <h3 class="font-medium text-gray-500 mb-0 text-sm">Insight Engine and Agent Scorecard</h3>
             </div>
           </div>
         </div>
@@ -354,11 +345,11 @@
         <!-- Content (Right) -->
         <div class="w-full md:w-1/2 pt-8">
           <h2 class="text-4xl md:text-[40px] leading-tight font-medium text-white mb-6">
-            Safe and secure
+            Enterprise-grade security
           </h2>
           
           <p class="text-gray-400 text-lg mb-12 leading-relaxed">
-            Sierra is designed with the highest commitment to trust, security, and compliance. Your AI agent won't pretend to be something it's not, and it will be honest about its limitations.
+            Deploy in VPC, on-premises, or fully hosted. SOC 2 compliant with stateless architecture. Personal data never leaves your enterprise.
           </p>
 
           <div class="divide-y divide-white/10 border-t border-b border-white/10">
@@ -367,7 +358,7 @@
                 <div class="flex justify-between items-center cursor-pointer group">
                   <h3 class="font-medium text-gray-300 group-hover:text-white transition-colors text-sm">{item}</h3>
                   {#if i === 0}
-                  <p class="mt-2 text-gray-500 text-xs max-w-md">Guardrails ensure your agent stays on-topic, and real-time monitoring tracks live interactions.</p>
+                  <p class="mt-2 text-gray-500 text-xs max-w-md">Built-in guardrails with real-time monitoring for policy violations and jailbreak attempts. Complete audit trails.</p>
                   {/if}
                 </div>
               </div>
@@ -383,13 +374,13 @@
       <div class="flex justify-between items-end mb-16">
         <div class="max-w-xl">
           <h2 class="text-4xl md:text-[40px] leading-tight font-medium text-gray-900 mb-6">
-            The results speak for themselves
+            Proven results across industries
           </h2>
           <p class="text-gray-600 text-lg leading-relaxed">
-            Sierra is trusted by leading consumer brands with millions of customers across a wide range of industries.
+            Scaled Cognition delivers higher automation rates and guaranteed policy compliance across banking, retail, and travel.
           </p>
         </div>
-        <span class="bg-[#105D37] text-white px-3 py-1.5 rounded-full text-xs font-medium mb-2">Our customers</span>
+        <span class="bg-[bg-gray-900] text-white px-3 py-1.5 rounded-full text-xs font-medium mb-2">Our customers</span>
       </div>
 
       <div class="grid md:grid-cols-3 gap-8">
@@ -404,7 +395,7 @@
               <div class="text-2xl font-bold">15 Million</div>
             </div>
           </div>
-          <h3 class="text-xl text-gray-900 leading-snug group-hover:text-[#105D37] transition-colors">
+          <h3 class="text-xl text-gray-900 leading-snug group-hover:text-[bg-gray-900] transition-colors">
             How Sonos elevates the listener experience with Sierra.
           </h3>
         </div>
@@ -420,7 +411,7 @@
               <div class="text-2xl font-bold">34 Million</div>
             </div>
           </div>
-          <h3 class="text-xl text-gray-900 leading-snug group-hover:text-[#105D37] transition-colors">
+          <h3 class="text-xl text-gray-900 leading-snug group-hover:text-[bg-gray-900] transition-colors">
             How SiriusXM increases listener loyalty with Sierra.
           </h3>
         </div>
@@ -442,7 +433,7 @@
               </div>
             </div>
           </div>
-          <h3 class="text-xl text-gray-900 leading-snug group-hover:text-[#105D37] transition-colors">
+          <h3 class="text-xl text-gray-900 leading-snug group-hover:text-[bg-gray-900] transition-colors">
             How Casper turns a big purchase into a lifelong relationship with AI.
           </h3>
         </div>
@@ -454,13 +445,13 @@
   <section class="py-32 px-6 text-center">
     <div class="max-w-[1200px] mx-auto">
       <h2 class="text-4xl md:text-5xl font-medium text-gray-900 mb-6 tracking-tight">
-        See what Sierra can do for you
+        Ready to eliminate hallucinations?
       </h2>
       <p class="text-gray-600 text-lg max-w-2xl mx-auto mb-10">
-        Find out how Sierra can help your business build better, more human customer experiences with AI.
+        Join enterprise CX leaders who trust Scaled Cognition for guaranteed policy compliance and zero-hallucination automation.
       </p>
-      <a href="#" class="inline-block bg-[#105D37] hover:bg-[#0C492B] text-white px-8 py-3 rounded-full font-medium transition-colors">
-        Learn more
+      <a href="#" class="inline-block bg-[bg-gray-900] hover:bg-[bg-gray-800] text-white px-8 py-3 rounded-full font-medium transition-colors">
+        Request Demo
       </a>
     </div>
   </section>
@@ -470,7 +461,7 @@
     <div class="max-w-[1200px] mx-auto">
       <div class="grid grid-cols-2 md:grid-cols-6 gap-12 mb-20">
         <div class="col-span-2">
-          <a href="/" class="flex items-center gap-2 text-[#105D37] mb-6">
+          <a href="/" class="flex items-center gap-2 text-[bg-gray-900] mb-6">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path d="M12 2L2 7l10 5 10-5-10-5zm0 9l2.5-1.25L12 8.5l-2.5 1.25L12 11zm0 2.5l-5-2.5-5 2.5L12 22l10-8.5-5-2.5-5 2.5z"/></svg>
             <span class="font-serif text-xl tracking-tight font-medium">SIERRA</span>
           </a>
